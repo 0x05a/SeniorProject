@@ -42,4 +42,5 @@ std::vector<Point2D> Get2DPointsFromPolyGon(OGRLayer *poLayer)
             }
         }
     }
+    return points;
 }
